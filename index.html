@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inmobiliaria</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Propiedades Destacadas</h1>
+    <nav>
+      <a href="pages/propiedades_venta.html">Ver más en venta</a> |
+      <a href="pages/propiedades_alquiler.html">Ver más en arriendo</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Propiedades en venta</h2>
+    <div id="venta"></div>
+  </section>
+
+  <section>
+    <h2>Propiedades en arriendo</h2>
+    <div id="alquiler"></div>
+  </section>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    renderPropiedades(propiedades_venta, "venta", 3);
+    renderPropiedades(propiedades_alquiler, "alquiler", 3);
+  </script>
+</body>
+</html>
