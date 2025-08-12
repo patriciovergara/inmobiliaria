@@ -44,7 +44,7 @@ inmobiliaria/
 ## 🚀 Despliegue en GitHub Pages
 
 Puedes ver el sitio desplegado aquí:  
-👉 [https://tuusuario.github.io/inmobiliaria](https://patriciovergara.github.io/inmobiliaria/)
+👉 [https://patriciovergara.github.io/inmobiliaria](https://patriciovergara.github.io/inmobiliaria/)
 ---
 
 ## 📌 Instrucciones para clonar y ejecutar
